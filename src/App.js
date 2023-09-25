@@ -9,7 +9,7 @@ function App() {
     useEngine();
   return (
     <>
-    <h1 className="primary-500">Speed Typing</h1> 
+      <h1 className="text-primary-500 text-7xl pb-20">Speed Typing</h1>
       <CountdownTimer time={timeLeft} />
       <WordContainer>
         <UserTypings className="absolute" userInput={typed} words={words} />
